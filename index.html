@@ -1,0 +1,347 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#050711">
+  <meta name="description" content="SOLANO: diseño gráfico, identidad visual, publicidad y diseño web.">
+  <title>SOLANO | Diseño & Creatividad</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="estiilo.css">
+  <script src="main.js" defer></script>
+</head>
+<body>
+
+  <div class="fondo-luces"></div>
+  <div class="cursor-luz"></div>
+
+  <header class="header" id="inicio">
+    <a href="#inicio" class="logo">
+      <span class="logo-icon">S</span>
+      <span class="logo-texto">SOLANO<small>DISEÑO & CREATIVIDAD</small></span>
+    </a>
+
+    <button class="menu-toggle" id="menuToggle"
+      aria-label="Abrir menú" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="nav" id="nav">
+      <a href="#inicio">Inicio</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#sobre-mi">Sobre mí</a>
+      <a href="#contacto" class="nav-contacto">Contacto ↗</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- PORTADA PRINCIPAL -->
+    <section class="hero section">
+      <div class="hero-text reveal">
+        <span class="etiqueta">
+          <span class="punto"></span>
+          IDEAS QUE SE CONVIERTEN EN REALIDAD
+        </span>
+
+        <h1>
+          DISEÑO GRÁFICO<br>
+          <span class="texto-gradiente">DIGITAL</span> QUE<br>
+          IMPULSA TU MARCA.
+        </h1>
+
+        <p class="hero-descripcion">
+          Creamos experiencias visuales que conectan, comunican y
+          hacen crecer tu negocio. Diseño, creatividad y tecnología
+          en un solo lugar.
+        </p>
+
+        <div class="hero-botones">
+          <a class="btn btn-rojo" href="#proyectos">
+            Ver proyectos <span>↗</span>
+          </a>
+          <a class="btn btn-outline" href="#contacto">
+            Contáctame
+          </a>
+        </div>
+
+        <div class="estadisticas">
+          <div>
+            <strong>DISEÑO</strong>
+            <span>Con identidad</span>
+          </div>
+          <div>
+            <strong>CREATIVIDAD</strong>
+            <span>Sin límites</span>
+          </div>
+          <div>
+            <strong>100%</strong>
+            <span>Compromiso</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- PERSONAJE ANIMADO -->
+      <div class="hero-visual reveal">
+        <div class="anillo anillo-1"></div>
+        <div class="anillo anillo-2"></div>
+        <div class="energia energia-roja"></div>
+        <div class="energia energia-azul"></div>
+
+        <div class="visual-etiqueta etiqueta-top">
+          CREATIVIDAD / 001
+        </div>
+
+        <img
+          src="img/persona.png"
+          alt="Personaje futurista de SOLANO con iluminación roja y azul"
+          class="personaje"
+          fetchpriority="high"
+        >
+
+        <div class="particula particula-1"></div>
+        <div class="particula particula-2"></div>
+        <div class="particula particula-3"></div>
+
+        <div class="hero-firma">S<span>.</span></div>
+
+        <div class="visual-etiqueta etiqueta-bottom">
+          DISEÑO · TECNOLOGÍA · FUTURO
+        </div>
+      </div>
+
+      <div class="hero-decoracion">SOLANO®</div>
+    </section>
+
+    <!-- FRANJA ANIMADA -->
+    <section class="marquee" aria-label="Especialidades">
+      <div class="marquee-track">
+        <span>DISEÑO GRÁFICO ✳</span>
+        <span>IDENTIDAD VISUAL ✳</span>
+        <span>DISEÑO WEB ✳</span>
+        <span>PUBLICIDAD DIGITAL ✳</span>
+        <span>DISEÑO GRÁFICO ✳</span>
+        <span>IDENTIDAD VISUAL ✳</span>
+        <span>DISEÑO WEB ✳</span>
+        <span>PUBLICIDAD DIGITAL ✳</span>
+      </div>
+    </section>
+
+    <!-- SERVICIOS -->
+    <section class="section contenido" id="servicios">
+      <div class="section-heading reveal">
+        <div>
+          <span class="sobrelinea">01 / LO QUE HACEMOS</span>
+          <h2>NUESTROS <span class="texto-gradiente">SERVICIOS.</span></h2>
+        </div>
+        <p>
+          Ofrecemos soluciones creativas y profesionales para llevar
+          tu marca al siguiente nivel.
+        </p>
+      </div>
+
+      <div class="servicios-grid">
+        <article class="servicio-card reveal">
+          <div class="servicio-icon rojo">✳</div>
+          <span class="card-numero">01</span>
+          <h3>Diseño gráfico</h3>
+          <p>Logos, banners, flyers, afiches e identidad visual para tu negocio.</p>
+          <a href="#contacto">Ver más <span>↗</span></a>
+        </article>
+
+        <article class="servicio-card reveal">
+          <div class="servicio-icon azul">▶</div>
+          <span class="card-numero">02</span>
+          <h3>Edición de video</h3>
+          <p>Videos promocionales, reels y contenido visual para redes sociales.</p>
+          <a href="#contacto">Ver más <span>↗</span></a>
+        </article>
+
+        <article class="servicio-card reveal">
+          <div class="servicio-icon violeta">✎</div>
+          <span class="card-numero">03</span>
+          <h3>Ilustración digital</h3>
+          <p>Arte digital, personajes, ilustraciones y conceptos visuales.</p>
+          <a href="#contacto">Ver más <span>↗</span></a>
+        </article>
+
+        <article class="servicio-card reveal">
+          <div class="servicio-icon azul">⌘</div>
+          <span class="card-numero">04</span>
+          <h3>Diseño web</h3>
+          <p>Páginas web modernas, atractivas y adaptables a cada dispositivo.</p>
+          <a href="#contacto">Ver más <span>↗</span></a>
+        </article>
+      </div>
+    </section>
+
+    <!-- PORTAFOLIO -->
+    <section class="section contenido" id="proyectos">
+      <div class="section-heading reveal">
+        <div>
+          <span class="sobrelinea">02 / PORTAFOLIO</span>
+          <h2>PROYECTOS <span class="texto-gradiente">DESTACADOS.</span></h2>
+        </div>
+        <p>
+          Diseños y conceptos visuales que demuestran creatividad,
+          composición y personalidad.
+        </p>
+      </div>
+
+      <div class="filtros reveal">
+        <button class="filtro activo" data-filter="todos">Todos</button>
+        <button class="filtro" data-filter="marca">Diseño gráfico</button>
+        <button class="filtro" data-filter="publicidad">Publicidad</button>
+        <button class="filtro" data-filter="ilustracion">Ilustración</button>
+        <button class="filtro" data-filter="web">Web</button>
+      </div>
+
+      <div class="proyectos-grid">
+        <article class="proyecto reveal" data-category="marca">
+          <div class="proyecto-arte arte-marca">
+            <span>SOLANO</span>
+            <small>CREATIVE STUDIO</small>
+          </div>
+          <div class="proyecto-info">
+            <div>
+              <h3>Identidad visual</h3>
+              <p>Concepto de marca</p>
+            </div>
+            <span>↗</span>
+          </div>
+        </article>
+
+        <article class="proyecto reveal" data-category="publicidad">
+          <div class="proyecto-arte arte-publicidad">
+            <span>MAKE IT<br><b>LOUD.</b></span>
+            <i>✳</i>
+          </div>
+          <div class="proyecto-info">
+            <div>
+              <h3>Banner publicitario</h3>
+              <p>Diseño promocional</p>
+            </div>
+            <span>↗</span>
+          </div>
+        </article>
+
+        <article class="proyecto reveal" data-category="ilustracion">
+          <div class="proyecto-arte arte-ilustracion">
+            <span>ART<br>IN MOTION<span class="punto-rojo">.</span></span>
+            <div class="orbita"></div>
+          </div>
+          <div class="proyecto-info">
+            <div>
+              <h3>Ilustración digital</h3>
+              <p>Arte y composición</p>
+            </div>
+            <span>↗</span>
+          </div>
+        </article>
+
+        <article class="proyecto reveal" data-category="web">
+          <div class="proyecto-arte arte-web">
+            <div class="mini-ventana">
+              <div class="mini-cabecera"><span></span><span></span><span></span></div>
+              <strong>SOLANO<span>.</span></strong>
+              <div class="mini-linea"></div>
+              <div class="mini-linea corta"></div>
+              <div class="mini-boton"></div>
+            </div>
+          </div>
+          <div class="proyecto-info">
+            <div>
+              <h3>Diseño web</h3>
+              <p>Sitio corporativo</p>
+            </div>
+            <span>↗</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- SOBRE MÍ -->
+    <section class="sobre section contenido" id="sobre-mi">
+      <div class="sobre-visual reveal">
+        <div class="sobre-marco">
+          <div class="sobre-letra">S.</div>
+          <span>DISEÑAR ES COMUNICAR.</span>
+          <div class="sobre-circulo"></div>
+        </div>
+        <div class="sobre-badge">CREATIVIDAD<br>EN MOVIMIENTO ↗</div>
+      </div>
+
+      <div class="sobre-texto reveal">
+        <span class="sobrelinea">03 / SOBRE MÍ</span>
+        <h2>DISEÑO CON<br><span class="texto-gradiente">PROPÓSITO.</span></h2>
+
+        <p>
+          Soy Stiff Solano, estudiante de Diseño Gráfico Digital
+          y creador de SOLANO. Me apasiona desarrollar propuestas
+          visuales modernas, limpias y con personalidad.
+        </p>
+
+        <p>
+          Busco combinar creatividad, comunicación y tecnología
+          para crear diseños que transmitan ideas y ayuden a las
+          marcas a destacar.
+        </p>
+
+        <div class="herramientas">
+          <span>Illustrator</span>
+          <span>Photoshop</span>
+          <span>CorelDRAW</span>
+          <span>HTML & CSS</span>
+        </div>
+
+        <a href="#contacto" class="btn btn-outline">Conoce mi trabajo ↗</a>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section class="contacto section contenido" id="contacto">
+      <div class="contacto-panel reveal">
+        <span class="sobrelinea">04 / HAGAMOS ALGO GRANDE</span>
+        <h2>¿TIENES UNA IDEA?<br><span class="texto-gradiente">VAMOS A CREARLA.</span></h2>
+        <p>
+          Cuéntame qué necesitas y trabajemos juntos para
+          convertir tu idea en una propuesta visual.
+        </p>
+        <a
+          class="btn btn-rojo"
+          href="https://wa.me/51900000000?text=Hola%20SOLANO%2C%20quiero%20informaci%C3%B3n%20sobre%20sus%20servicios."
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Contactar por WhatsApp ↗
+        </a>
+        <span class="contacto-nota">
+          Recuerda cambiar el número de WhatsApp por el tuyo.
+        </span>
+      </div>
+    </section>
+  </main>
+
+  <!-- PIE DE PÁGINA -->
+  <footer class="footer">
+    <a href="#inicio" class="logo">
+      <span class="logo-icon">S</span>
+      <span class="logo-texto">SOLANO<small>DISEÑO & CREATIVIDAD</small></span>
+    </a>
+
+    <p>Diseño · Creatividad · Publicidad</p>
+    <a href="#inicio" class="volver-arriba">VOLVER ARRIBA ↑</a>
+
+    <div class="footer-bottom">
+      <span>© <span id="year"></span> SOLANO. Todos los derechos reservados.</span>
+      <span>Ideas que se convierten en realidad.</span>
+    </div>
+  </footer>
+
+</body>
+</html>
